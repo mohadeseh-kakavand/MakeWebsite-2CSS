@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2d3250;
+    font-family: Tahoma, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+nav{
+    height: 15px;
+    width: 210.3vh;
+    padding: 2rem;
+    background-color: hsl(232, 24%, 52%);
+    display: flex;
+    justify-content: space-around;
+    z-index: 99;
+}
+.nav1{
+    margin: 10px;
+    background-color: hwb(12 40% 11%);
+    padding: 10px;
+    border-radius: 45%;
+}
+nav #logo{
+    margin: 0px;
+    height: 65px;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-around ;
+    align-self:flex-start;
+    z-index: 99;
+}
+main{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+img{
+    margin-left: 6rem;
+}
+form{
+    display: inline-block;
+    background-color:#f9b17a;
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    padding: 25px;
+    gap: 20px;
+    border-radius: 25px;
+}
+input{
+    border-radius: 25px;
+    margin: 0.4rem;
+}
+fieldset{
+    margin: 0.4rem;
+    width: 250px;
+}
+button{
+    border-radius: 10px;
+    background-color: #2d3250;
+    padding: 8px;
+    color: white;
+    margin-left: 15rem;
+}
+footer{
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 210.3vh;
+    background-color: rgb(29, 28, 28);
+    color: hsl(0, 3%, 70%);
+}

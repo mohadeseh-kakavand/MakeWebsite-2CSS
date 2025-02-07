@@ -1,0 +1,131 @@
+/* @media screen and (max-width: 900px) {
+    nav{
+     
+    }
+    
+}
+@media screen and (max-width: 762px) {
+    body{flex-wrap: wrap;}
+    /* #developer{none} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2d3250;
+    font-family: Tahoma, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 100vh; */
+}
+nav{
+    height: 15px;
+    width: 208vh;
+    padding: 2rem;
+    background-color: hsl(232, 24%, 52%);
+    display: flex;
+    justify-content: space-around;
+}
+.nav1{
+    margin: 10px;
+    background-color: hwb(12 40% 11%);
+    padding: 10px;
+    border-radius: 45%;
+}
+nav #logo{
+    margin: 0px;
+    height: 65px;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-around ;
+    align-self:flex-start;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.para1{
+    height: 500px;
+    width: 500px;
+    margin: 6rem;
+    margin-bottom: 1rem;
+    color: #fcfcfc;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3rem;
+}
+#developer{
+    margin: 5rem;
+    margin-bottom: 1rem;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    height: 70px;
+    width: 208vh;
+    padding-top: 20px;
+    background-color: #f9b17a;
+    border-radius: 30px;
+}
+.src{
+    padding-top: 8px;
+}
+
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear 0.5s;
+}  
+.cartline{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+ display: inline-block;
+}
+.cart{
+    background-color: hsl(232, 24%, 52%);
+    box-shadow: 8px 8px 5px rgba(203, 203, 209, 0.2);
+    height: 300px;
+    width: 200px;
+    margin: 20px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    border-radius: 25px;
+}
+.box{
+    background-color: #92b8f1;
+    height: 125px;
+    width: 145px;
+    position: absolute;
+    border-radius: 25px;
+}
+.line{
+    background-color: #f9b17a;
+    position: absolute;
+    height: 25px;
+    width: 158px;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px 0; 
+}
+section:hover .D1{transform: perspective(300px) rotateX(60deg) translateY(60px);}
+section:hover .D2{transform: perspective(300px) rotateY(60deg) translateX(-60px);}
+section:hover .D3{rotate: 45deg;}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 208vh;
+    background-color: rgb(29, 28, 28);
+    color: hsl(0, 3%, 70%);
+}
